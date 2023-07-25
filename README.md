@@ -19,6 +19,8 @@ The dataset is called UrbanSound and contains 8732 labeled sound excerpts (<=4s)
 - class,
 - type of sound.
 
+Please consult this site to have more information about the dataset: https://urbansounddataset.weebly.com/
+
 # Objective
 
 The objective of this project is train a CNN model that will automate classification Urban sounds.
