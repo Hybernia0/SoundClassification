@@ -1,0 +1,6 @@
+# COMMONS PITFALLS
+
+1. DO NOT reshuffle the data! The dataset was created by splitting big audio files into some small pieces. If you reshuffle the data the same track, splitted into different tracks, could be insert both in the train and test
+set. So the result would not be valid!
+
+2. DO NOT use 5-fold corss validation, for the same reason you need to use a 10 - fold cross validation.
